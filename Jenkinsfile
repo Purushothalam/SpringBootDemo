@@ -3,7 +3,9 @@ pipeline {
     
     stages{
         stage("Build"){
-        "Started Building the Jenkins File"
+            steps {
+                echo "Started Building the Jenkins File"   
+            }
         }   
     }
 }
