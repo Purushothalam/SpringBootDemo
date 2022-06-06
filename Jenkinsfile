@@ -1,7 +1,9 @@
 pipeline {
     agent any
     
-    stage("Build"){
+    stages{
+        stage("Build"){
         "Started Building the Jenkins File"
+        }   
     }
 }
